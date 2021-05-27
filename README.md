@@ -19,7 +19,11 @@ npm run start
 
 ### Build 專案
 ```shell
-npm run  build
+npm run build
 ```
 
 ### Deploy gh-pages
+
+```shell
+npm run deploy
+```
