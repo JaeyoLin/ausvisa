@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 
+import './Locales/i18n';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
