@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/ausvisa/static/css/main.1635e87c.chunk.css",
-    "main.js": "/ausvisa/static/js/main.335e5a22.chunk.js",
-    "main.js.map": "/ausvisa/static/js/main.335e5a22.chunk.js.map",
-    "runtime-main.js": "/ausvisa/static/js/runtime-main.51eecf73.js",
-    "runtime-main.js.map": "/ausvisa/static/js/runtime-main.51eecf73.js.map",
-    "static/js/2.72c38c7c.chunk.js": "/ausvisa/static/js/2.72c38c7c.chunk.js",
-    "static/js/2.72c38c7c.chunk.js.map": "/ausvisa/static/js/2.72c38c7c.chunk.js.map",
-    "static/js/3.92ad554b.chunk.js": "/ausvisa/static/js/3.92ad554b.chunk.js",
-    "static/js/3.92ad554b.chunk.js.map": "/ausvisa/static/js/3.92ad554b.chunk.js.map",
+    "main.css": "/ausvisa/static/css/main.3fe3c50d.chunk.css",
+    "main.js": "/ausvisa/static/js/main.7142f025.chunk.js",
+    "main.js.map": "/ausvisa/static/js/main.7142f025.chunk.js.map",
+    "runtime-main.js": "/ausvisa/static/js/runtime-main.012bbd51.js",
+    "runtime-main.js.map": "/ausvisa/static/js/runtime-main.012bbd51.js.map",
+    "static/js/2.170865d7.chunk.js": "/ausvisa/static/js/2.170865d7.chunk.js",
+    "static/js/2.170865d7.chunk.js.map": "/ausvisa/static/js/2.170865d7.chunk.js.map",
+    "static/js/3.c9e4664f.chunk.js": "/ausvisa/static/js/3.c9e4664f.chunk.js",
+    "static/js/3.c9e4664f.chunk.js.map": "/ausvisa/static/js/3.c9e4664f.chunk.js.map",
     "index.html": "/ausvisa/index.html",
-    "static/css/main.1635e87c.chunk.css.map": "/ausvisa/static/css/main.1635e87c.chunk.css.map",
-    "static/js/2.72c38c7c.chunk.js.LICENSE.txt": "/ausvisa/static/js/2.72c38c7c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ausvisa/static/media/logo.6ce24c58.svg"
+    "static/css/main.3fe3c50d.chunk.css.map": "/ausvisa/static/css/main.3fe3c50d.chunk.css.map",
+    "static/js/2.170865d7.chunk.js.LICENSE.txt": "/ausvisa/static/js/2.170865d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.51eecf73.js",
-    "static/js/2.72c38c7c.chunk.js",
-    "static/css/main.1635e87c.chunk.css",
-    "static/js/main.335e5a22.chunk.js"
+    "static/js/runtime-main.012bbd51.js",
+    "static/js/2.170865d7.chunk.js",
+    "static/css/main.3fe3c50d.chunk.css",
+    "static/js/main.7142f025.chunk.js"
   ]
 }
