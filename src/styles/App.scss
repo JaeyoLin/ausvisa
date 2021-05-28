@@ -47,8 +47,10 @@ body {
     .sidebar-btn {
       padding: 1px 15px;
       border-radius: 40px;
-      background: rgba(255, 255, 255, 0.05);
-      color: #adadad;
+      // background: rgba(255, 255, 255, 0.05);
+      // color: #adadad;
+      background: #00BB00;
+      color: white;
       text-decoration: none;
       margin: 0 auto;
       height: 35px;
@@ -79,14 +81,14 @@ body {
   }
 
   main {
-    padding: 24px;
+    padding: 14px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
     header {
-      margin-bottom: 40px;
-      border-bottom: 1px solid #efefef;
+      // margin-bottom: 40px;
+      // border-bottom: 1px solid #efefef;
       h1 {
         display: flex;
         align-items: center;

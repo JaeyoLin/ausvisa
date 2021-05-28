@@ -10,7 +10,13 @@ import {
   SidebarContent,
 } from 'react-pro-sidebar';
 import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart } from 'react-icons/fa';
+import {
+  SiLine,
+} from 'react-icons/si';
 // import sidebarBg from './assets/bg1.jpg';
+import sidebarBg from '@Assets/bg1.jpg';
+
+import { useTranslation } from 'react-i18next';
 
 /**
  * SideBar
@@ -19,9 +25,12 @@ import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart } fro
  * @returns
  */
 const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
+  const { t } = useTranslation();
+
   return (
     <ProSidebar
       // image={image ? sidebarBg : false}
+      image={sidebarBg}
       rtl={rtl}
       collapsed={collapsed}
       toggled={toggled}
@@ -41,7 +50,7 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
             whiteSpace: 'nowrap',
           }}
         >
-          { `sidebarTitle` }
+          { `放 Logo` }
         </div>
       </SidebarHeader>
 
@@ -49,41 +58,41 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
         <Menu iconShape="circle">
           <MenuItem
             icon={<FaTachometerAlt />}
-            suffix={<span className="badge red">{ `new` }</span>}
+            suffix={<span className="badge red">{ `隨便放` }</span>}
           >
-            { `dashboard` }
+            { `隨便放` }
           </MenuItem>
-          <MenuItem icon={<FaGem />}> { `components` }</MenuItem>
+          <MenuItem icon={<FaGem />}> { `隨便放` }</MenuItem>
         </Menu>
         <Menu iconShape="circle">
           <SubMenu
             suffix={<span className="badge yellow">3</span>}
-            title={`withSuffix`}
+            title={`隨便放`}
             icon={<FaRegLaughWink />}
           >
-            <MenuItem>{`submenu`} 1</MenuItem>
-            <MenuItem>{`submenu`} 2</MenuItem>
-            <MenuItem>{`submenu`} 3</MenuItem>
+            <MenuItem>{`隨便放`} 1</MenuItem>
+            <MenuItem>{`隨便放`} 2</MenuItem>
+            <MenuItem>{`隨便放`} 3</MenuItem>
           </SubMenu>
           <SubMenu
             prefix={<span className="badge gray">3</span>}
-            title={`withPrefix`}
+            title={`隨便放`}
             icon={<FaHeart />}
           >
-            <MenuItem>{`submenu`} 1</MenuItem>
-            <MenuItem>{`submenu`} 2</MenuItem>
-            <MenuItem>{`submenu`} 3</MenuItem>
+            <MenuItem>{`隨便放`} 1</MenuItem>
+            <MenuItem>{`隨便放`} 2</MenuItem>
+            <MenuItem>{`隨便放`} 3</MenuItem>
           </SubMenu>
-          <SubMenu title={`multiLevel`} icon={<FaList />}>
-            <MenuItem>{`submenu`} 1 </MenuItem>
-            <MenuItem>{`submenu`} 2 </MenuItem>
-            <SubMenu title={`${`submenu`} 3`}>
-              <MenuItem>{`submenu`} 3.1 </MenuItem>
-              <MenuItem>{`submenu`} 3.2 </MenuItem>
-              <SubMenu title={`${`submenu`} 3.3`}>
-                <MenuItem>{`submenu`} 3.3.1 </MenuItem>
-                <MenuItem>{`submenu`} 3.3.2 </MenuItem>
-                <MenuItem>{`submenu`} 3.3.3 </MenuItem>
+          <SubMenu title={`隨便放`} icon={<FaList />}>
+            <MenuItem>{`隨便放`} 1 </MenuItem>
+            <MenuItem>{`隨便放`} 2 </MenuItem>
+            <SubMenu title={`${`隨便放`} 3`}>
+              <MenuItem>{`隨便放`} 3.1 </MenuItem>
+              <MenuItem>{`隨便放`} 3.2 </MenuItem>
+              <SubMenu title={`${`隨便放`} 3.3`}>
+                <MenuItem>{`隨便放`} 3.3.1 </MenuItem>
+                <MenuItem>{`隨便放`} 3.3.2 </MenuItem>
+                <MenuItem>{`隨便放`} 3.3.3 </MenuItem>
               </SubMenu>
             </SubMenu>
           </SubMenu>
@@ -98,13 +107,13 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
           }}
         >
           <a
-            href="https://github.com/azouaoui-med/react-pro-sidebar"
+            href="https://line.me/ti/p/WefNmtuiom"
             target="_blank"
             className="sidebar-btn"
             rel="noopener noreferrer"
           >
-            <FaGithub />
-            <span> {`viewSource`}</span>
+            <SiLine />
+            <span> {t('contact')}</span>
           </a>
         </div>
       </SidebarFooter>

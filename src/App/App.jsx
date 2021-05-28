@@ -4,7 +4,7 @@ import {
   SideBar,
 } from '@Components';
 
-import '../styles/App.scss';
+import '@Styles/App.scss';
 
 /**
  * App
