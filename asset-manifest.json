@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ausvisa/static/css/main.c778c46d.chunk.css",
-    "main.js": "/ausvisa/static/js/main.2d921305.chunk.js",
-    "main.js.map": "/ausvisa/static/js/main.2d921305.chunk.js.map",
+    "main.js": "/ausvisa/static/js/main.89e0fb80.chunk.js",
+    "main.js.map": "/ausvisa/static/js/main.89e0fb80.chunk.js.map",
     "runtime-main.js": "/ausvisa/static/js/runtime-main.a048a827.js",
     "runtime-main.js.map": "/ausvisa/static/js/runtime-main.a048a827.js.map",
     "static/js/2.a7597b56.chunk.js": "/ausvisa/static/js/2.a7597b56.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a048a827.js",
     "static/js/2.a7597b56.chunk.js",
     "static/css/main.c778c46d.chunk.css",
-    "static/js/main.2d921305.chunk.js"
+    "static/js/main.89e0fb80.chunk.js"
   ]
 }
