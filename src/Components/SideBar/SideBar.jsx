@@ -13,7 +13,11 @@ import { FaTachometerAlt, FaGem, FaList, FaGithub, FaRegLaughWink, FaHeart } fro
 import {
   SiLine,
 } from 'react-icons/si';
-// import sidebarBg from './assets/bg1.jpg';
+
+import {
+  Common,
+} from '@Config';
+
 import sidebarBg from '@Assets/bg1.jpg';
 
 import { useTranslation } from 'react-i18next';
@@ -107,7 +111,7 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
           }}
         >
           <a
-            href="https://line.me/ti/p/WefNmtuiom"
+            href={`https://line.me/ti/p/${Common.LINE_OFFICAL_ID}`}
             target="_blank"
             className="sidebar-btn"
             rel="noopener noreferrer"
