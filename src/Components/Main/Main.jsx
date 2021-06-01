@@ -1,9 +1,8 @@
 import React from 'react';
-// import { useIntl } from 'react-intl';
-// import Switch from 'react-switch';
-import { FaHeart, FaBars } from 'react-icons/fa';
-// import reactLogo from './assets/logo.svg';
-import { tw } from 'twind'
+import {
+  Carousel,
+} from 'rsuite';
+import { tw } from 'twind';
 
 import {
   Copyright,
@@ -26,8 +25,35 @@ const Main = ({
         handleToggleSidebar={handleToggleSidebar}
       />
 
-      <div className={tw`bg-green-200 h-screen p-3`}>
-        內文
+      <div className={tw`h-screen`} style={{ backgroundColor: '#FFFBF3', }}>
+        <div className={tw`p-2`}>
+          <Carousel
+            autoplay
+            style={{ 'height': '200px', }}
+            shape='bar'
+          >
+            <img
+              src="https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=1"
+              height="150"
+            />
+            <img
+              src="https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=2"
+              height="150"
+            />
+            <img
+              src="https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=3"
+              height="150"
+            />
+            <img
+              src="https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=4"
+              height="150"
+            />
+            <img
+              src="https://via.placeholder.com/600x250/8f8e94/FFFFFF?text=5"
+              height="150"
+            />
+          </Carousel>
+        </div>
       </div>
 
       <Copyright />

@@ -20,6 +20,7 @@
     "react-pro-sidebar": "^0.6.0",
     "react-scripts": "4.0.3",
     "react-select": "^4.3.1",
+    "rsuite": "^4.10.1",
     "twind": "^0.16.16",
     "web-vitals": "^1.1.2"
   },

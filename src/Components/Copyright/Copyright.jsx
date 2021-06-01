@@ -10,7 +10,7 @@ const Copyright = () => {
 
   return (
     <footer>
-      <div className={tw`text(center gray-500)`}>
+      <div className={tw`h-14 pt-4`} style={{ 'backgroundColor': '#669999', 'color': '#ffffff'}}>
         { `${new Date().getFullYear() } © ` }
         { t('owner') }
         {` ${t('right_reserved')}`}

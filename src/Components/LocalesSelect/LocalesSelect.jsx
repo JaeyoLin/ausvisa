@@ -1,5 +1,16 @@
-import Select from 'react-select';
+import React, {
+  // useState,
+} from 'react';
+// import Select from 'react-select';
 import { useTranslation } from 'react-i18next';
+import {
+  Popover,
+  Whisper,
+  Dropdown,
+} from 'rsuite';
+import {
+  IoLanguage,
+} from 'react-icons/io5';
 
 import {
   Common,
@@ -7,48 +18,64 @@ import {
 
 /**
  * LocalesSelect
- * 語系選擇
  *
- * @param {*} props
+ * @returns
  */
-const LocalesSelect = (props) => {
+const LocalesSelect = () => {
   const {
     t,
     i18n,
   } = useTranslation();
 
-  // 語系檔下拉式選單
-  const options = [
-    { value: 'zh-TW', label: t('lang.zh_tw') },
-    { value: 'en-US', label: t('lang.en_us') },
-  ];
+  const triggerRef = React.createRef();
 
   /**
-   * handleChange
-   * 選擇語系
+   * handleSelectMenu
    *
-   * @param {*} option
+   * @param {*} eventKey
+   * @param {*} event
    */
-  const handleChange = (option) => {
-    i18n.changeLanguage(option.value);
+  const handleSelectMenu = (eventKey, event) => {
+    // console.log(eventKey);
+
+    i18n.changeLanguage(eventKey);
 
     // 下次使用系統可以 Keep 語系
-    localStorage.setItem(Common.LOCAL_STORAGE_I18N_KEY, option.value);
+    localStorage.setItem(Common.LOCAL_STORAGE_I18N_KEY, eventKey);
+
+    triggerRef.current.hide();
   }
 
-  // 下拉式選單選的選項
-  const selectedOption = options.find((tmp) => {
-    return tmp.value === i18n.language;
-  })
+  /**
+   * MenuPopover
+   *
+   * @param {*} param0
+   * @returns
+   */
+  const MenuPopover = ({ onSelect, ...rest }) => {
+    const local = localStorage.getItem(Common.LOCAL_STORAGE_I18N_KEY);
+
+    return (
+      <Popover {...rest} full>
+        <Dropdown.Menu onSelect={onSelect}>
+          <Dropdown.Item eventKey='zh-TW'>{ t('lang.zh_tw') }</Dropdown.Item>
+          <Dropdown.Item eventKey='en-US'>{ t('lang.en_us') }</Dropdown.Item>
+        </Dropdown.Menu>
+      </Popover>
+    );
+  };
 
   return (
-    <>
-      <Select
-        value={selectedOption}
-        onChange={handleChange}
-        options={options}
-      />
-    </>
+    <Whisper
+      placement="bottomEnd"
+      trigger="click"
+      triggerRef={triggerRef}
+      speaker={<MenuPopover onSelect={handleSelectMenu} />}
+    >
+      <div className="btn-language">
+        <IoLanguage />
+      </div>
+    </Whisper>
   );
 };
 

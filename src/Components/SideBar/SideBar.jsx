@@ -18,9 +18,10 @@ import {
   Common,
 } from '@Config';
 
-import sidebarBg from '@Assets/bg1.jpg';
+// import sidebarBg from '@Assets/bg1.jpg';
 
 import { useTranslation } from 'react-i18next';
+import { tw } from 'twind';
 
 /**
  * SideBar
@@ -34,17 +35,19 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
   return (
     <ProSidebar
       // image={image ? sidebarBg : false}
-      image={sidebarBg}
+      // image={sidebarBg}
       rtl={rtl}
       collapsed={collapsed}
       toggled={toggled}
       breakPoint="md"
       onToggle={handleToggleSidebar}
+      className={(toggled) ? 'sidebar-container' : ''}
     >
       <SidebarHeader>
         <div
+          className={tw`h-16`}
           style={{
-            padding: '24px',
+            // padding: '24px',
             textTransform: 'uppercase',
             fontWeight: 'bold',
             fontSize: 14,
@@ -107,7 +110,7 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
         <div
           className="sidebar-btn-wrapper"
           style={{
-            padding: '20px 24px',
+            padding: '10px 24px',
           }}
         >
           <a

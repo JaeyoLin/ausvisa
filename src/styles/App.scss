@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-$sidebar-bg-color: #1d1d1d;
-$submenu-bg-color: rgba(255, 255, 255, 0.05);
+$sidebar-bg-color: #336699;
+$submenu-bg-color: #91A67F;
 $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
-$sidebar-color: #adadad;
+$sidebar-color: #ffffff;
 $highlight-color: #d8d8d8;
 $icon-bg-color: rgba(255, 255, 255, 0.05);
 $icon-size: 35px;
@@ -27,9 +27,9 @@ body {
 
   .btn-toggle {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
-    background: #353535;
+    width: 40px;
+    height: 40px;
+    background: #336699;
     color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -38,6 +38,20 @@ body {
     justify-content: center;
     font-size: 15px;
     display: none;
+  }
+
+  .btn-language {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: #336699;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
   }
 
   .sidebar-btn-wrapper {
@@ -81,7 +95,7 @@ body {
   }
 
   main {
-    padding: 14px;
+    // padding: 14px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -89,6 +103,8 @@ body {
     header {
       // margin-bottom: 40px;
       // border-bottom: 1px solid #efefef;
+      // height: 69px;
+
       h1 {
         display: flex;
         align-items: center;
@@ -169,6 +185,10 @@ body {
       .btn-toggle {
         margin-left: auto;
       }
+    }
+
+    .sidebar-container {
+      box-shadow: 2px 0px 3px #666666;
     }
   }
 }

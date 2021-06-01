@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,6 +7,7 @@ import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 
 import './Locales/i18n';
+import 'rsuite/dist/styles/rsuite-default.css';
 
 ReactDOM.render(
   <React.StrictMode>
