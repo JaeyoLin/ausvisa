@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ausvisa/static/css/main.e7431046.chunk.css",
-    "main.js": "/ausvisa/static/js/main.f34a3fb8.chunk.js",
-    "main.js.map": "/ausvisa/static/js/main.f34a3fb8.chunk.js.map",
+    "main.css": "/ausvisa/static/css/main.28833846.chunk.css",
+    "main.js": "/ausvisa/static/js/main.f26bc483.chunk.js",
+    "main.js.map": "/ausvisa/static/js/main.f26bc483.chunk.js.map",
     "runtime-main.js": "/ausvisa/static/js/runtime-main.344d9d40.js",
     "runtime-main.js.map": "/ausvisa/static/js/runtime-main.344d9d40.js.map",
     "static/css/2.7785af68.chunk.css": "/ausvisa/static/css/2.7785af68.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.b3832db5.chunk.js.map": "/ausvisa/static/js/3.b3832db5.chunk.js.map",
     "index.html": "/ausvisa/index.html",
     "static/css/2.7785af68.chunk.css.map": "/ausvisa/static/css/2.7785af68.chunk.css.map",
-    "static/css/main.e7431046.chunk.css.map": "/ausvisa/static/css/main.e7431046.chunk.css.map",
+    "static/css/main.28833846.chunk.css.map": "/ausvisa/static/css/main.28833846.chunk.css.map",
     "static/js/2.ae5a6154.chunk.js.LICENSE.txt": "/ausvisa/static/js/2.ae5a6154.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.344d9d40.js",
     "static/css/2.7785af68.chunk.css",
     "static/js/2.ae5a6154.chunk.js",
-    "static/css/main.e7431046.chunk.css",
-    "static/js/main.f34a3fb8.chunk.js"
+    "static/css/main.28833846.chunk.css",
+    "static/js/main.f26bc483.chunk.js"
   ]
 }
