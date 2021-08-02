@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ausvisa/static/css/main.990d5da3.chunk.css",
-    "main.js": "/ausvisa/static/js/main.1ac9e1f5.chunk.js",
-    "main.js.map": "/ausvisa/static/js/main.1ac9e1f5.chunk.js.map",
+    "main.js": "/ausvisa/static/js/main.f3986ccb.chunk.js",
+    "main.js.map": "/ausvisa/static/js/main.f3986ccb.chunk.js.map",
     "runtime-main.js": "/ausvisa/static/js/runtime-main.e54e2aba.js",
     "runtime-main.js.map": "/ausvisa/static/js/runtime-main.e54e2aba.js.map",
     "static/css/2.b58b85ca.chunk.css": "/ausvisa/static/css/2.b58b85ca.chunk.css",
-    "static/js/2.07464468.chunk.js": "/ausvisa/static/js/2.07464468.chunk.js",
-    "static/js/2.07464468.chunk.js.map": "/ausvisa/static/js/2.07464468.chunk.js.map",
+    "static/js/2.9a575dc9.chunk.js": "/ausvisa/static/js/2.9a575dc9.chunk.js",
+    "static/js/2.9a575dc9.chunk.js.map": "/ausvisa/static/js/2.9a575dc9.chunk.js.map",
     "static/js/3.380387dc.chunk.js": "/ausvisa/static/js/3.380387dc.chunk.js",
     "static/js/3.380387dc.chunk.js.map": "/ausvisa/static/js/3.380387dc.chunk.js.map",
     "index.html": "/ausvisa/index.html",
     "static/css/2.b58b85ca.chunk.css.map": "/ausvisa/static/css/2.b58b85ca.chunk.css.map",
     "static/css/main.990d5da3.chunk.css.map": "/ausvisa/static/css/main.990d5da3.chunk.css.map",
-    "static/js/2.07464468.chunk.js.LICENSE.txt": "/ausvisa/static/js/2.07464468.chunk.js.LICENSE.txt",
+    "static/js/2.9a575dc9.chunk.js.LICENSE.txt": "/ausvisa/static/js/2.9a575dc9.chunk.js.LICENSE.txt",
     "static/media/shutterstock_1085732081.04a3044a.jpg": "/ausvisa/static/media/shutterstock_1085732081.04a3044a.jpg",
     "static/media/shutterstock_622101671.8019f0cc.jpg": "/ausvisa/static/media/shutterstock_622101671.8019f0cc.jpg",
     "static/media/shutterstock_759070441.f4ea72db.jpg": "/ausvisa/static/media/shutterstock_759070441.f4ea72db.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.e54e2aba.js",
     "static/css/2.b58b85ca.chunk.css",
-    "static/js/2.07464468.chunk.js",
+    "static/js/2.9a575dc9.chunk.js",
     "static/css/main.990d5da3.chunk.css",
-    "static/js/main.1ac9e1f5.chunk.js"
+    "static/js/main.f3986ccb.chunk.js"
   ]
 }
